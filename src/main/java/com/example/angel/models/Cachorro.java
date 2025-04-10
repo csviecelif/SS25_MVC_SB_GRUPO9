@@ -1,4 +1,4 @@
-package com.pucpralunos.abrigo.models;
+package com.example.angel.models;
 
 public class Cachorro {
     private String nome;
@@ -14,6 +14,9 @@ public class Cachorro {
     }
 
     public String getNome() {
-        return this.nome;
+        return nome;
     }
+    public String getRaca() {
+        return raca;
+        }
 }

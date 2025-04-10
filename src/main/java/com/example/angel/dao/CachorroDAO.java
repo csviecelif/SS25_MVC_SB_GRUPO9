@@ -1,4 +1,4 @@
-package com.pucpralunos.abrigo.dao;
+package com.example.angel.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,7 +9,8 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.pucpralunos.abrigo.models.Cachorro;
+import com.example.angel.models.Cachorro;
+
 
 public class CachorroDAO {
 

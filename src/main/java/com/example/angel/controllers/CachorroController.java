@@ -1,4 +1,4 @@
-package com.pucpralunos.abrigo.controllers;
+package com.example.angel.controllers;
 
 import java.util.List;
 
@@ -7,8 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.pucpralunos.abrigo.dao.CachorroDAO;
-import com.pucpralunos.abrigo.models.Cachorro;
+import com.example.angel.dao.CachorroDAO;
+import com.example.angel.models.Cachorro;
+
 
 @RestController
 @RequestMapping("/cachorros")
@@ -18,13 +19,13 @@ public class CachorroController {
     public CachorroController() {}
 
     @GetMapping("/cadastrar")
-    public void CadastrarCachorro(@RequestParam String nome, @RequestParam String raca) {
+    public Cachorro CadastrarCachorro(@RequestParam String nome, @RequestParam String raca) {
         cachorroDAO.addCachorro(nome,raca);
+        return new Cachorro(nome, raca);
     }
 
     @GetMapping("/listar")
     public List<Cachorro> listarCachorros() {
-        List<Cachorro> cachorros = cachorroDAO.listarCachorros(); 
-        return cachorros;
+        return cachorro.DAO.istarCachorros();
     }
 }

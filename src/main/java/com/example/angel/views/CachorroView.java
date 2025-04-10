@@ -1,10 +1,11 @@
-package com.pucpralunos.abrigo.views;
+package com.example.angel.views;
 
 import java.util.List;
 import java.util.Scanner;
 
-import com.pucpralunos.abrigo.controllers.CachorroController;
-import com.pucpralunos.abrigo.models.Cachorro;
+import com.example.angel.controllers.CachorroController;
+import com.example.angel.models.Cachorro;
+
 
 public class CachorroView {
     private CachorroController controller = new CachorroController();
