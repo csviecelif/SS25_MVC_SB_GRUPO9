@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.angel.AngelApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-04-11T00:04:03.433Z" hostname="CVF" time="0.896">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.angel.AngelApplicationTests" time="0.896"/>
+  <system-out><![CDATA[21:04:01.268 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.angel.AngelApplicationTests]: AngelApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+21:04:01.430 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.angel.AngelApplication for test class com.example.angel.AngelApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-04-10T21:04:02.032-03:00  INFO 42721 --- [angel] [    Test worker] c.example.angel.AngelApplicationTests    : Starting AngelApplicationTests using Java 17.0.14 with PID 42721 (started by cvf in /home/cvf/Downloads/angel/SS25_MVC_SB_GRUPO9)
+2025-04-10T21:04:02.035-03:00  INFO 42721 --- [angel] [    Test worker] c.example.angel.AngelApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2025-04-10T21:04:03.414-03:00  INFO 42721 --- [angel] [    Test worker] c.example.angel.AngelApplicationTests    : Started AngelApplicationTests in 1.763 seconds (process running for 3.152)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

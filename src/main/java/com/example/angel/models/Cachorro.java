@@ -10,13 +10,22 @@ public class Cachorro {
     }
 
     public void latir() {
-        System.out.println(this.nome + " esta latindo");
+        System.out.println(this.nome + " está latindo");
     }
 
     public String getNome() {
-        return nome;
+        return this.nome;
     }
+
     public String getRaca() {
-        return raca;
-        }
+        return this.raca;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+
+    public void setRaca(String raca) {
+        this.raca = raca;
+    }
 }
